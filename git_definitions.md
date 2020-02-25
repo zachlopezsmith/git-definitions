@@ -13,3 +13,7 @@
 - Working Directory: a single snapshot of the current project
 - Staging Area: a single file in the .git directory that stores information about what will go in the next commit
 - Git Directory: the meta data and object database for your project 
+- Unmodified: means the file is unchanged
+- Modified: means you have changed a file but have not committed those changes
+- Staged: means you have marked a changed file to go into the next commit (snapshot)
+- Committed: means the data is stored in the local database
