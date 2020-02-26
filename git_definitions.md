@@ -17,4 +17,7 @@
 - Modified: means you have changed a file but have not committed those changes
 - Staged: means you have marked a changed file to go into the next commit (snapshot)
 - Committed: means the data is stored in the local database
-
+- git branch <branchname> - create a new branch with the given name
+- git checkout <branchname> - switch to new branch
+- git checkout -b <branchname> - create new branch and switch to it
+- git branch -d <branchname> - delete existing branch with given name
