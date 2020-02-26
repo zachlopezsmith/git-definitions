@@ -21,3 +21,4 @@
 - git checkout <branchname> - switch to new branch
 - git checkout -b <branchname> - create new branch and switch to it
 - git branch -d <branchname> - delete existing branch with given name
+- git merge [branchNameToMerge]: merges the branch named into the current branch you are working on
