@@ -22,3 +22,7 @@
 - git checkout -b <branchname> - create new branch and switch to it
 - git branch -d <branchname> - delete existing branch with given name
 - git merge [branchNameToMerge]: merges the branch named into the current branch you are working on
+- Master Branch - only stable tested code.
+- Develop Branch - integration branch fro new features. If its going to break, we want it to break on develop.
+- Topic Branches - branched from develop for feature development of bug fixes. Topic branches are merged back into develop and never interact with the
+	master branch
